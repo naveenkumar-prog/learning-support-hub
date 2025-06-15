@@ -21,6 +21,7 @@ src/
 │
 ├── components/
 │   ├── Header/Header
+│   ├── Layout/Layout
 │   ├── ProviderCard/ProviderCard
 │   └── DarkModeToggle/DarkModeToggle
 │
@@ -31,10 +32,8 @@ src/
 ├── utils/
 │   └── fetchProviders.js
 │
-├── styles/
-│   └── GlobalStyles.css
-│
 └── App.js
+
 ```
 
 ## 🚀 Getting Started
