@@ -20,13 +20,13 @@ This module provides:
 src/
 │
 ├── components/
-│   ├── Header/
-│   ├── ProviderCard/
-│   └── DarkModeToggle/
+│   ├── Header/Header
+│   ├── ProviderCard/ProviderCard
+│   └── DarkModeToggle/DarkModeToggle
 │
 ├── pages/
-│   ├── ProviderList.js
-│   └── ProviderDetail.js
+│   ├── ProviderList/ProviderList.js
+│   └── ProviderDetail/ProviderDetail.js
 │
 ├── utils/
 │   └── fetchProviders.js
