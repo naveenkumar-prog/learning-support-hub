@@ -1,0 +1,120 @@
+/* ========== Container Styles ========== */
+.provider-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  font-size: 16px;
+}
+
+/* ========== Links ========== */
+.link {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ========== Rating Stars ========== */
+.rating-stars {
+  margin-right: 5px;
+}
+
+.star {
+  font-size: 20px;
+  color: gold;
+  margin-right: 2px;
+}
+
+body.dark .star {
+  color: #ffc107;
+}
+
+/* ========== Back Button ========== */
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #e2e2e2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Loader ========== */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ========== Error Message ========== */
+.error-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.error-container h2 {
+  font-size: 24px;
+  color: #d32f2f;
+}
+
+/* ========== Not Found ========== */
+.not-found {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  color: red;
+}
+
+/* ========== Dark Mode Overrides ========== */
+body.dark .provider-detail-container {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body.dark .back-button {
+  background-color: #2b2b2b;
+  color: #f1f1f1;
+  border-color: #444;
+}
+
+body.dark .back-button:hover {
+  background-color: #3a3a3a;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+body.dark .loader {
+  border: 6px solid #444;
+  border-top: 6px solid #4fc3f7;
+}
+
+body.dark .error-container h2 {
+  color: #ef5350;
+}

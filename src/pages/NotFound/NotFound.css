@@ -1,0 +1,43 @@
+.not-found-page {
+  text-align: center;
+  padding: 60px 20px;
+  color: #333;
+}
+
+.not-found-page h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.not-found-page p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.not-found-page button {
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.not-found-page button:hover {
+  background: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark .not-found-page {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark .not-found-page button {
+  background-color: #444;
+  color: white;
+}
+
+body.dark .not-found-page button:hover {
+  background-color: #666;
+}

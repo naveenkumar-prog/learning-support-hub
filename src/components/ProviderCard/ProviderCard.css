@@ -1,0 +1,33 @@
+.provider-card {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: #fff;
+}
+
+.provider-card:hover {
+  transform: scale(1.02);
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.provider-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Dark mode styles */
+.dark .provider-card {
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  color: #f0f0f0;
+}
+
+.dark .provider-card:hover {
+  border-color: #339af0;
+  box-shadow: 0 4px 12px rgba(51, 154, 240, 0.3);
+}

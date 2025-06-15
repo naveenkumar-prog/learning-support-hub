@@ -1,0 +1,28 @@
+/* Dark mode toggle base styles */
+.icon-toggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 999;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+/* Dark theme background */
+body.dark .icon-toggle {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Hover effect */
+.icon-toggle:hover {
+  transform: scale(1.15);
+}
+
+.icon-toggle[title]::after {
+  content: attr(title);
+  display: none;
+}

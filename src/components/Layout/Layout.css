@@ -1,0 +1,14 @@
+.layout-container {
+  transition: background-color 0.3s ease;
+}
+
+.layout-container main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body.dark .layout-container {
+  background-color: #121212;
+  color: #fff;
+}

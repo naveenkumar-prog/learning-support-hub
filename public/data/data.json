@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Sanjay kumar",
+      "specialization": "Dyslexia Support",
+      "location": "Coimbatore",
+      "rating": 4.5,
+      "shortDescription": "Expert in early intervention strategies.",
+      "longDescription": "Dr. Sanjay kumar specializes in dyslexia support for children aged 6-12, providing assessments, tutoring, and progress tracking.",
+      "contactEmail": "sanjay.kumar@email.com",
+      "phoneNumber": "+910000000000"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Ashok Aravind",
+      "specialization": "ADHD Coaching",
+      "location": "Tirupur",
+      "rating": 4.2,
+      "shortDescription": "Helps teens manage ADHD effectively.",
+      "longDescription": "Mr. Ashok Aravind uses behavioral strategies and coaching to support teenagers in managing ADHD symptoms in academic settings.",
+      "contactEmail": "ashok.aravind@email.com",
+      "phoneNumber": "+910000000000"
+    },
+    {
+      "id": 3,
+      "name": "Ms. Kavita Arun",
+      "specialization": "Autism Spectrum Therapy",
+      "location": "Erode",
+      "rating": 4.7,
+      "shortDescription": "Therapist with over 10 years of experience.",
+      "longDescription": "Provides ABA and speech therapy for children with Autism Spectrum Disorders, helping improve communication and social skills.",
+      "contactEmail": "kavita.arun@email.com",
+      "phoneNumber": "+910000000000"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Nazeem",
+      "specialization": "Learning Disabilities",
+      "location": "Coimbatore",
+      "rating": 4.0,
+      "shortDescription": "Works with students with multiple learning challenges.",
+      "longDescription": "Offers individualized education plans (IEPs) and support for children with dysgraphia, dyscalculia, and more.",
+      "contactEmail": "nazeem1@email.com",
+      "phoneNumber": "+910000000000"
+    },
+    {
+      "id": 5,
+      "name": "Mrs. Neha",
+      "specialization": "Speech and Language Therapy",
+      "location": "Coimbatore",
+      "rating": 4.8,
+      "shortDescription": "Experienced in helping children with speech delays.",
+      "longDescription": "Focuses on phonological awareness and language comprehension in children aged 3-10 years.",
+      "contactEmail": "neha04@email.com",
+      "phoneNumber": "+910000000000"
+    }
+  ]
+  
